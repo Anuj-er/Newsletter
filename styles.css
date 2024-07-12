@@ -1,0 +1,180 @@
+body {
+    font-family: "Poppins", sans-serif;
+    color: var(--primary-text-color);
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    max-width: 1180px;
+    margin-inline: auto;
+    overflow: hidden;
+}
+
+nav {
+    background-color: #f3faff;
+    box-shadow: 0 0 4px #bbd0e2;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    left: 0;
+    right: 0;
+}
+
+.main-nav {
+    justify-content: space-between;
+    padding-block: 8px;
+}
+
+.company-logo img {
+    width: 100px;
+    height: 75px;
+}
+
+.nav-links ul {
+    gap: 16px;
+}
+
+
+.search-bar {
+    height: 32px;
+    gap: 8px;
+}
+
+.news-input {
+    width: 200px;
+    height: 100%;
+    padding-inline: 12px;
+    border-radius: 4px;
+    border: 2px solid #bbd0e2;
+}
+
+main {
+    padding-block: 20px;
+    margin-top: 80px;
+}
+
+.cards-container {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    align-items: start;
+}
+
+.card {
+    width: 360px;
+    min-height: 400px;
+    box-shadow: 0 0 4px #d4ecff;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.card-header img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 12px;
+    max-height: fit-content;
+}
+
+.news-source {
+    margin-block: 12px;
+}
+.news-desc{
+    margin-block: 12px;
+    min-height: auto;
+}
+
+footer{
+    background-color: #bbd0e2f9;
+    padding-block: 20px;
+    text-align: center;
+
+}
+
+.footer-logo img {
+    max-width: 150px;
+    height: auto;
+}
+
+.footer-links {
+    display: flex; 
+    gap: 15px; 
+}
+
+.footer-links a {
+    color: #1ecac1; 
+    text-decoration: none; 
+    font-size: 14px; 
+    transition: color 0.3s ease;
+}
+.mainbanner {
+    background: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.mainimage img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.maincontent {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.latest-updates {
+    background: #f4f4f4;
+    padding: 50px 20px;
+}
+
+.latest-updates h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.latest-updates ul {
+    list-style: none;
+    padding: 0;
+}
+
+.latest-updates li {
+    margin-bottom: 10px;
+}
+
+.latest-updates a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.latest-updates a:hover {
+    text-decoration: underline;
+}
+.featured-news {
+    padding: 50px 0;
+}
+
+.featured-news h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.news-cards {
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.nav-linksflex{
+    display: flex;
+    gap: 16px;
+}
+a{
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
